@@ -1,0 +1,108 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: ratiomodern, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr, 1fr);
+}
+#card-body {
+  background-color: black;
+}
+h1,
+h2,
+h3,
+blockquote {
+  font-family: ratiomodern, serif;
+  font-weight: 800;
+  font-style: normal;
+}
+p {
+  font-family: ratiomodern, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#info {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: block;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  /*background: var(--dark-bg);*/
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+  font-weight: 400;
+}
+
+titles {
+  /*background: var(--dark-bg);*/
+  grid-column: 3 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+  font-weight: 100;
+}
+
+section {
+  grid-column: 3 / 8;
+  padding: 1rem;
+  /*background: var(--dark-bg);*/
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+
+blockquote {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  grid-column: 4 / span 9;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  color: whitesmoke;
+  /*background-color: white;*/
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+}
+
+.section-2 {
+  grid-column: 3 / span 9;
+  font-family: ratiomodern, serif;
+  font-weight: 400;
+  font-style: italic;
+}

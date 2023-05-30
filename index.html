@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .section-2.grid-container{
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-rows: 1fr;
+        padding: 10px;
+        grid-gap: 40px;
+        margin: 0 auto;
+      }
+      </style>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/glc4aba.css">
+    <title>SpaceTravel</title>
+  </head>
+  <body>
+    <div class="loading-bar"></div>
+
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">SPACEX</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SPACEX</h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="mix.html"
+                  >Virtual Room</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accomplishments</a>
+              </li>
+              
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+      <canvas id="bg"></canvas>
+      <div id="info"></div>
+      <main>
+        <header>
+          <h1 class="text-center"> SpaceTravel</h1>
+          <p class="text-center">🚀 Partering with government space agencies to offer space tourism packages and develop scientific research of space exploration</p>
+        </header>
+
+        <titles>
+            <h1 class="titles">Offering zero-gravity experiences for adventures seekers</h1>
+        </titles>
+
+        
+        <section>
+          <h2> About SpaceX</h2>
+          <p>
+            SPACEX was established in 2010 in the US. This company is owned by an anonymous person. The company's categories mainly focus on developing space tourism packages, including trips to low Earth orbit or the International Space Station for wealthy individuals or groups, and partnering with government space agencies to offer trips to the Moon or Mars for research or scientific purposes.
+          </p>
+
+
+
+          <p>
+            SpaceX is also researching and making reusable space vehicles to make space travel cheaper and easier for more people. According to the CEO of this company in the UK " SpaceX is developing space-based solar power stations to provide a sustainable energy source for Earth and offering space-based manufacturing and assembly services to companies looking to take advantage of the unique properties of microgravity environments."  
+          </p>
+          <br>
+          <button type="button" class="btn btn-secondary mt-2">Reservation</button>
+        </section>
+
+        <section class="light">
+          <h2>Projects</h2>
+
+          <p>
+            Recently, it released a campaign to promote zero-gravity experiences for adventure seekers. Visitors must be trained and meet safety standards before travelling. They are also experienced in orbiting hotels and other commercial space stations for long-term stays. 
+            Visit the website and book a reservation to experience the spacecraft here with virtual reality technology.  
+            <br>
+          <button type="button" class="btn btn-secondary mt-2">Virtual Room</button>
+          </p>
+
+          <h2 class="mt-3"> 🏆 Accomplishments</h2>
+
+          <p> Walk on the Moon in 2013 <br>
+           A trip around Jupiter <br>
+          Succesful installation of a space research station on Mars <br>
+          Succesful built a space power station link to our Planet
+        </p>
+        </section>
+
+        <titles>
+          <h1 class="titles">"Congratulations, SpaceX, you got the flag"</h1>
+        </titles>
+
+      
+     <section class="section-2">
+     <div>
+        <div class="grid-container">
+            <div class="card text-white bg-secondary mb-3" style="width: 18rem;">
+              <img src="./Images/spacetourism.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Space Station Peek</h5>
+                <p class="card-text"> NASA astronaut and Expedition 68 Flight Engineer Nicole Mann peers through one of the seven windows in the cupola, the International Space Station's "window to the world" on Jan. 2, 2023.</p>
+                <a href="#" class="btn btn-primary">Go to explore</a>
+              </div>
+            </div>
+
+            <div class="card text-white bg-secondary mb-3 " style="width: 18rem;">
+                <img src="./Images/spacem.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Prepping to Study the World’s Water</h5>
+                  <p class="card-text"> The Surface Water and Ocean Topography (SWOT) spacecraft is in this early morning photo from Dec. 14, 2022, as preparations for launch continued. </p>
+                  <a href="#" class="btn btn-primary">Go to explore</a>
+                </div>
+              </div>
+
+              <div class="card text-white bg-secondary mb-3" style="width: 18rem;">
+                  <img src="./Images/s-station.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Space Station Swings by Kennedy</h5>
+                    <p class="card-text"> On April 8, 2022, this 30-second exposure captured the International Space Station as it passed over the Space Launch System rocket and the Orion spacecraft at NASA’s Kennedy Space Center in Florida.</p>
+                    <a href="#" class="btn btn-primary">Go to explore</a>
+                  </div>
+                </div>
+      </div>
+  
+     </div>
+      </section>
+      </main>
+     
+      
+    </body>
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

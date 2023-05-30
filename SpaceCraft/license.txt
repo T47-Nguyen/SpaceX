@@ -1,0 +1,11 @@
+Model Information:
+* title:	SpaceCraft
+* source:	https://sketchfab.com/3d-models/spacecraft-30550fee5a0245afad66a075f87c2fd3
+* author:	Kapil Mishra (https://sketchfab.com/kapilmishra)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SpaceCraft" (https://sketchfab.com/3d-models/spacecraft-30550fee5a0245afad66a075f87c2fd3) by Kapil Mishra (https://sketchfab.com/kapilmishra) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
